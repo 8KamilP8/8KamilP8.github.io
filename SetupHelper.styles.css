@@ -1,10 +1,4 @@
 /* /Components/MenuItem.razor.rz.scp.css */
-a[b-zmciedbzxo] {
-    flex: 1;
-    align-items: center;
-    text-align: center;
-}
-
 .text[b-zmciedbzxo] {
     font-family: Tahoma, Geneva, Verdana, sans-serif;
     color: aliceblue;
@@ -187,3 +181,17 @@ main[b-aagv2o3w1x] {
     text-align: center; /* Center the text within the element */
     margin-left: 20px;
   }
+/* /Pages/Home.razor.rz.scp.css */
+.container[b-2bxamqgo0x] {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 10px; /* gap between grid items */
+  }
+  
+.container > div[b-2bxamqgo0x] {
+    background-color: #453f32;
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+}
