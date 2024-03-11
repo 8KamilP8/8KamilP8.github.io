@@ -220,5 +220,6 @@ main[b-aagv2o3w1x] {
     display: flex;
     flex-wrap: wrap;
     gap: 10px 10px; /* gap between grid items */
+    justify-content: center;
   }
   
