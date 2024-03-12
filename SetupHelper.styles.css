@@ -1,10 +1,82 @@
+/* /Components/DrawPlayers.razor.rz.scp.css */
+.container[b-uzhyhexodo] {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+
+[b-uzhyhexodo] .player-form-input {
+    background-color: #29201a;
+    color: white;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #3D3D3D;
+    padding: 9px;
+    cursor: text;
+}
+[b-uzhyhexodo] .player-form-input:hover {
+  border-color: gray;
+}
+
+[b-uzhyhexodo] .player-form-input:focus-within {
+  background: #464646;
+  border-color: gray;
+}
+form[b-uzhyhexodo] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.number-input[b-uzhyhexodo] {
+    background-color: #29201a;
+    color: white;
+    border: none;
+    outline: none;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    text-align: center;
+    overflow: hidden;
+    background: #3D3D3D;
+    padding: 9px;
+    cursor: text;
+    width: 32px;
+}
+
+input[b-uzhyhexodo]::-webkit-outer-spin-button,
+input[b-uzhyhexodo]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number][b-uzhyhexodo] {
+  -moz-appearance: textfield;
+}
 /* /Components/MenuItem.razor.rz.scp.css */
 .text[b-zmciedbzxo] {
     font-family: Tahoma, Geneva, Verdana, sans-serif;
     color: aliceblue;
     font-size: xx-large;
     margin-bottom: 1%;
-    text-decoration: none !important;
 }
 
 .link[b-zmciedbzxo] {
@@ -221,5 +293,7 @@ main[b-aagv2o3w1x] {
     flex-wrap: wrap;
     gap: 10px 10px; /* gap between grid items */
     justify-content: center;
-  }
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
   
