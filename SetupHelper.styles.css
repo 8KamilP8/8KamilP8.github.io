@@ -278,15 +278,65 @@ main[b-aagv2o3w1x] {
     width: 200px; /* Set width for the container (adjust as needed) */
     height: 150px; /* Set height for the container (adjust as needed) */
     padding-left: 50px;
-  }
-  .image[b-6wjb0n5x77] {
-    height: 100px;
-  }
-  .image-text[b-6wjb0n5x77] {
-    color: white; /* Adjust text color for better visibility on the image */
-    text-align: center; /* Center the text within the element */
-    margin-left: 20px;
-  }
+}
+.image[b-6wjb0n5x77] {
+  height: 100px;
+}
+.image-text[b-6wjb0n5x77] {
+  color: white; /* Adjust text color for better visibility on the image */
+  text-align: center; /* Center the text within the element */
+  margin-left: 20px;
+}
+.parent[b-6wjb0n5x77] {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.map[b-6wjb0n5x77] {
+  width: 100%;
+}
+.map-element[b-6wjb0n5x77]{
+  position: absolute;
+  width: 8%;
+  border: 2px red solid;
+  border-radius: 100%;
+}
+.map1[b-6wjb0n5x77] {
+  top: 3%;
+  left: 60%;
+}
+.map2[b-6wjb0n5x77] {
+  top: 3%;
+  right: 1%;
+}
+.map3[b-6wjb0n5x77] {
+  top: 22%;
+  right: 1%;
+}
+.map4[b-6wjb0n5x77] {
+  top: 32%;
+  right: 10%;
+}
+.map5[b-6wjb0n5x77] {
+  top: 42%;
+  right: 31%;
+}
+.map6[b-6wjb0n5x77] {
+  bottom: 30%;
+  left: 45%;
+}
+.map7[b-6wjb0n5x77] {
+  bottom: 21%;
+  left: 62%;
+}
+.map8[b-6wjb0n5x77] {
+  bottom: 27%;
+  right: 1%;
+}
+.map9[b-6wjb0n5x77] {
+  bottom: 10%;
+  right: 4%;
+}
 /* /Pages/Home.razor.rz.scp.css */
 .container[b-2bxamqgo0x] {
     display: flex;
