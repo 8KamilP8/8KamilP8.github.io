@@ -385,3 +385,41 @@ main[b-aagv2o3w1x] {
     margin-top: 25px;
     margin-bottom: 25px;
 }
+
+.productions[b-pgyw7txure] {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1ch;
+    flex-direction: row;
+    margin-top: 1ch;
+    margin-bottom: 1ch;
+}
+
+.product[b-pgyw7txure] {
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 50%;
+}
+.blue[b-pgyw7txure] {
+    background-color: blue;
+}
+.white[b-pgyw7txure] {
+    background-color: white;
+}
+.black[b-pgyw7txure] {
+    background-color: black;
+}
+.brown[b-pgyw7txure] {
+    background-color: brown;
+}
+.yellow[b-pgyw7txure] {
+    background-color: yellow;
+}
+
+.festival-container[b-pgyw7txure] {
+    display: flex;
+    flex-direction: column;
+    gap: 1ch;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
