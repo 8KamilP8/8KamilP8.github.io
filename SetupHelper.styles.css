@@ -365,3 +365,23 @@ main[b-aagv2o3w1x] {
     margin-bottom: 25px;
 }
   
+/* /Pages/PuertoRico.razor.rz.scp.css */
+.container[b-pgyw7txure] {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.buildings-container[b-pgyw7txure] {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    gap: 10px 10px; /* gap between grid items */
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}

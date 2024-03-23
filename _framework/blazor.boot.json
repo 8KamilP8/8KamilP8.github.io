@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "SetupHelper",
   "resources": {
-    "hash": "sha256-hZVrRuC7yjADbce9N19IucuxQLyCR28IBYJZ5HqWcLg=",
+    "hash": "sha256-GU8EAoMd08tNCu0S8TGStWPD2vdfT12vP4a+ZfdS8qQ=",
     "jsModuleNative": {
       "dotnet.native.8.0.3.wzxwl5s97r.js": "sha256-D4sYBYmDfH/YekgYRgX959/2RG6k28sJSHmcsn+iikk="
     },
@@ -32,7 +32,7 @@
       "Microsoft.Extensions.Primitives.wasm": "sha256-Ms2HR5Gpug/0uRAzdk4SUNT76Ml3CjFv9Jo+dUIMGac=",
       "Microsoft.JSInterop.wasm": "sha256-1vXTFGB8f1xknhrY0hxfr04x1/JK+bA0IxTp2CBzmhY=",
       "Microsoft.JSInterop.WebAssembly.wasm": "sha256-2qBJkLnOCr4py2S0peps0cFo0z3Ew9OVwGYodtvAVkk=",
-      "SetupHelper.wasm": "sha256-wogM8dbYrSYoO0xCWlAIorsum+DMoOswsStDL75mjVs=",
+      "SetupHelper.wasm": "sha256-8N1hvHvos2wfW5GTrE9h7lWDOP2ZcdKM8NYBc+CcFe4=",
       "System.Collections.Concurrent.wasm": "sha256-L4bm076Vk0Ytkyr846kIi1/+XetuMD/dI6k51KcdW4w=",
       "System.Collections.NonGeneric.wasm": "sha256-jYhSPQPVpPGe1rncJAYV33MG+DB+ZUQOKP+QpJlWPoM=",
       "System.Collections.Specialized.wasm": "sha256-DFabYxCx0pdywk6NUK0tZVi5AP6N13TaXdblsqomgz4=",
