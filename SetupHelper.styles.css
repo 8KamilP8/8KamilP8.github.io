@@ -5,12 +5,15 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    column-gap: 5px;
-    row-gap: 5px;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
+.container-results[b-uzhyhexodo] {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  }
 
-
-[b-uzhyhexodo] .player-form-input {
+  [b-uzhyhexodo] .player-form-input {
     background-color: #29201a;
     color: white;
     border: none;
@@ -272,19 +275,34 @@ main[b-aagv2o3w1x] {
     }
 }
 /* /Pages/Chaos.razor.rz.scp.css */
+.container[b-6wjb0n5x77] {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    column-gap: 5px;
+    row-gap: 5px;
+}
 .image-container[b-6wjb0n5x77] {
     display: flex;
     align-items: center;
-    width: 200px; /* Set width for the container (adjust as needed) */
-    height: 150px; /* Set height for the container (adjust as needed) */
-    padding-left: 50px;
+    width: 250px; /* Set width for the container (adjust as needed) */
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.tokens-container[b-6wjb0n5x77]{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 10px;
 }
 .image[b-6wjb0n5x77] {
   height: 100px;
 }
 .image-text[b-6wjb0n5x77] {
   color: white; /* Adjust text color for better visibility on the image */
-  text-align: center; /* Center the text within the element */
+  text-align: left; /* Center the text within the element */
   margin-left: 20px;
 }
 .parent[b-6wjb0n5x77] {
