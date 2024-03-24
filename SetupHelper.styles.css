@@ -365,6 +365,31 @@ main[b-aagv2o3w1x] {
     margin-bottom: 25px;
 }
   
+/* /Pages/Neuroshima.razor.rz.scp.css */
+.fractions-container[b-lkym3aak72] {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.fraction-img[b-lkym3aak72] {
+    width: 100px;
+    margin-bottom: 1em;
+}
+
+.fraction[b-lkym3aak72] {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+}
+
+
 /* /Pages/PuertoRico.razor.rz.scp.css */
 .container[b-pgyw7txure] {
     display: flex;
