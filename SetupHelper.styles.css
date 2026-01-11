@@ -74,6 +74,36 @@ input[b-uzhyhexodo]::-webkit-inner-spin-button {
 input[type=number][b-uzhyhexodo] {
   -moz-appearance: textfield;
 }
+/* /Components/FoodChain/FoodChainBoardTile.razor.rz.scp.css */
+.square[b-nak557kq65] {
+  width: clamp(56px, 18vw, 96px);
+  aspect-ratio: 1 / 1;
+
+  border: 2px solid #333;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: clamp(4px, 1vw, 8px);
+}
+
+/* Rotation icon */
+.rotate-icon[b-nak557kq65] {
+  font-size: clamp(14px, 4vw, 22px);
+  line-height: 1;
+  margin-bottom: clamp(4px, 1vw, 8px);
+  user-select: none;
+}
+
+/* Tile content */
+.square-content[b-nak557kq65] {
+  font-size: clamp(10px, 3vw, 14px);
+  text-align: center;
+  word-break: break-word;
+}
 /* /Components/MenuItem.razor.rz.scp.css */
 .text[b-zmciedbzxo] {
     font-family: Tahoma, Geneva, Verdana, sans-serif;
@@ -355,6 +385,55 @@ main[b-aagv2o3w1x] {
   bottom: 10%;
   right: 4%;
 }
+/* /Pages/FoodChain.razor.rz.scp.css */
+.container[b-yy7ic7it70] {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+.modules-checklist[b-yy7ic7it70]{
+  align-items: start;
+    row-gap: 5px;
+}
+.number-input[b-yy7ic7it70] {
+    background-color: #29201a;
+    color: white;
+    border: none;
+    outline: none;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    text-align: center;
+    overflow: hidden;
+    background: #3D3D3D;
+    padding: 9px;
+    cursor: text;
+    width: 32px;
+}
+input[type=number][b-yy7ic7it70] {
+  -moz-appearance: textfield;
+}
+.board-grid[b-yy7ic7it70] {
+  display: grid;
+  gap: 8px;
+  width: fit-content;
+}
+/* /Pages/Got.razor.rz.scp.css */
+.container[b-ti96capsdl] {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    column-gap: 5px;
+    row-gap: 5px;
+}
 /* /Pages/Home.razor.rz.scp.css */
 .container[b-2bxamqgo0x] {
     display: flex;
@@ -364,7 +443,29 @@ main[b-aagv2o3w1x] {
     margin-top: 25px;
     margin-bottom: 25px;
 }
+
+.title[b-2bxamqgo0x] {
+    display: flex;   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo[b-2bxamqgo0x] {
+    height: 200px;
+    width: 200px;
+}
   
+/* /Pages/MassiveDarkness.razor.rz.scp.css */
+.container[b-93r4dkfzb5] {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    column-gap: 5px;
+    row-gap: 5px;
+}
 /* /Pages/Neuroshima.razor.rz.scp.css */
 .fractions-container[b-lkym3aak72] {
     display: flex;
